@@ -31,8 +31,8 @@ export default class UniversoValidator {
     planeta: schema.string({}, [
       rules.required()
     ]),
-    apelido: schema.string({}. [
-      rules.requiored()
+    apelido: schema.string({}, [
+      rules.required()
     ]),
   })
 

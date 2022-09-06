@@ -1,10 +1,8 @@
 import { DateTime } from 'luxon'
 import {
-   BaseModel, column, HasMany, hasMany, ManyToMany,
-   manyToMany 
+   BaseModel, column
   }from '@ioc:Adonis/Lucid/Orm'
-  import Universo from './Universo'
-  import UniversoTopic from './UniversoTopic'
+
 
 export default class Universo extends BaseModel {
   @column({ isPrimary: true })
