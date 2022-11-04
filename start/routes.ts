@@ -27,5 +27,5 @@ Route.get('/', async () => {
 Route.post("/register", "AuthController.register")
 Route.post("/login", "AuthController.login")
 Route.group(() => {
-  Route.resource("universo", "UniversosController").apiOnly()
+  Route.resource("planetas", "UniversosController").apiOnly()
 }).middleware('auth')
